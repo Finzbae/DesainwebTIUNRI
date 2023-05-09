@@ -1,15 +1,59 @@
-.nav-item{
+.nav-item {
   font-size: 20px;
   padding: 0px 8px;
 }
-.nav-link{
+
+.nav-link {
   color: white;
 }
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
   color: #FFBD07;
 }
-.footerrr{
+
+.footerrr {
   padding-top: 30px;
   padding-right: 70px;
   color: white;
+}
+
+.title-section2::after {
+  content: "";
+  width: 500px;
+  height: 2px;
+  background-color: #FFBD07;
+  display: block;
+  margin: 10px 33%;
+  align-items: center;
+}
+
+.mitra {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20px;
+}
+
+.kemitraan {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.title-nama::after {
+  content: "";
+  width: 500px;
+  height: 2px;
+  background-color: #FFBD07;
+  display: block;
+  margin: 10px;
+  margin-left: 0px;
+  text-align: left;
+}
+.konteur{
+  display: block;
+  justify-content: space-around;
+}
+.foto{
+  width: 300px;
+  padding: 20px;
 }
