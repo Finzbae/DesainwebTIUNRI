@@ -13,8 +13,6 @@
 }
 
 .footerrr {
-  padding-top: 30px;
-  padding-right: 70px;
   color: white;
 }
 
@@ -100,4 +98,35 @@ ul{
   z-index: 1;
   padding: 20px 25px;
   font-size: 40px;
+}
+.footer-body{
+  justify-content: space-between;
+}
+
+.widget-header a{
+  text-decoration: none;
+}
+
+
+@media(max-width:750px){
+  .footer-body{
+      justify-content: center;
+  }
+
+  .section-box{
+      text-align: center;
+  }
+
+  .widget-header{
+      text-align: center;
+      
+  }
+  .footerrr.widget-header.section-box.ul{
+    list-style-type: none;
+  }
+}
+.pftr{
+  padding: 0px;
+  margin-bottom: 0;
+  margin-top: 0;
 }
