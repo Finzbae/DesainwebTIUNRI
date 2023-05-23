@@ -11,7 +11,10 @@
 .navbar-nav .nav-link.show {
   color: #FFBD07;
 }
-
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show{
+  color: #FFBD07;
+}
 .footerrr {
   color: white;
 }
@@ -129,4 +132,9 @@ ul{
   padding: 0px;
   margin-bottom: 0;
   margin-top: 0;
+}
+
+.dropdown-item:active{
+  background-color:#354769;
+
 }

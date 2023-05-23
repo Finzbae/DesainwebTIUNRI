@@ -338,10 +338,11 @@
   .navbar-nav .nav-link.show {
     color: #FFBD07;
   }
-  
+  .navbar-nav .nav-link.active,
+  .navbar-nav .nav-link.show{
+    color: #FFBD07;
+  }
   .footerrr {
-    padding-top: 30px;
-    padding-right: 70px;
     color: white;
   }
   
@@ -427,4 +428,40 @@
     z-index: 1;
     padding: 20px 25px;
     font-size: 40px;
+  }
+  .footer-body{
+    justify-content: space-between;
+  }
+  
+  .widget-header a{
+    text-decoration: none;
+  }
+  
+  
+  @media(max-width:750px){
+    .footer-body{
+        justify-content: center;
+    }
+  
+    .section-box{
+        text-align: center;
+    }
+  
+    .widget-header{
+        text-align: center;
+        
+    }
+    .footerrr.widget-header.section-box.ul{
+      list-style-type: none;
+    }
+  }
+  .pftr{
+    padding: 0px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  
+  .dropdown-item:active{
+    background-color:#354769;
+  
   }
