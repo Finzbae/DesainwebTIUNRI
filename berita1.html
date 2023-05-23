@@ -8,6 +8,14 @@
     <link rel="stylesheet" href="bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
 </head>
 <body>
   <!-- Header -->
@@ -29,39 +37,8 @@
   </nav>
   
   <!-- Header 2 -->
-  <nav class="navbar navbar-expand-sm  " style="background-color: #192F59; margin: 0;padding: 0;opacity: 85% ;">
-    <div class="container-fluid" style=" height: 60px;">
+  <nav id="header">
 
-      <div class="collapse navbar-collapse" id="navbarNavDropdown" style="justify-content: right;">
-        <ul class="navbar-nav" style="margin-right: 20px;">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html">Beranda</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#" target="_blank _blank">Profil</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#" target="_blank _blank">Akademik</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#" target="_blank _blank">Sertifikasi</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" target="_blank _blank" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Galeri
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="kontak.html" target="_blank _blank">Kontak</a>
-          </li>
-        </ul>
-      </div>
-    </div>
   </nav>
  <h2 style="margin-left: 30px; margin-top: 20px;">Ani Marhadatillah Mahasiswa Teknik Informatika Juara 1 Lomba MTQ Kecamatan</h2>
  <div class="text-center">
@@ -77,44 +54,13 @@ Ketua Prodi Teknik Informatika,  Dr. Feri Candra turut  mengapresiasi perolehan 
  <p style="margin: 40px;">Ani Mardhatillah meraih Juara 1 pada Cabang Tilawah Al Quran Golongan Remaja Putri. Selanjutnya, Ani akan mewakili kecamatan Bathin Solapan pada MTQ Kab. Bengkalis ke 47 yang rencana nya akan diselenggarakan pada tanggal 14 November 2022 di Kecamatan Bukit Batu, Kabupaten Bengkalis.  Selamat dan semangat menorehkan prestasi.</p>
 <!-- footer -->
 
-<div style="text-align: left; display: flex; justify-content: space-between;  margin-top: 50pt; background-color: #192F59;width: 100vw;padding-left: 0; ">
-  <div style="margin-left: 30pt;">
-    <img src="Assets/logounri.png" alt="Gedung C" style="width: 120pt; height: 110pt; margin-right: 10pt;">
-   
-    <div class="container" style="display: flex;">
-   <p style="color: white;">Gedung C Lantai 2 <br> Fakultas Teknik Universitas Riau <br> Jl HR Soebrantas KM 12,5 <br> Simpang Baru, Binawidya, Pekanbaru -28193 <br> E-mail: Informatika@eng.unri.ac.id </p> 
+<footer class="footer">
+  <div id="footer">
+
   </div>
-  </div>
- <div class="footerrr">
-  <h5>S1 Teknik Informatika</h5>
-  <ul>  
-    <li>Event</li>
-    <li>Prestasi Mahasiswa</li>
-    <li>Berita</li>
-    <li>Tutorial</li><br><br><br><br><br><br><br>
-    <a href="https://www.facebook.com/" target="_blank">
-      <img src="Assets/facebook.png" alt="..." style="width: 40px; height: 40px; margin-right: 10pt;">
-    </a>
-    <a href="https://www.instagram.com/accounts/login/" target="_blank">
-      <img src="Assets/Instagram.png" alt="..." style="width: 40px; height: 40; margin-right: 10px;">
-    </a>
-    <a href="https://twitter.com/i/flow/login" target="_blank">
-      <img src="Assets/twitter.png" alt="..." style="width: 40px; height: 40px; margin-right: 10pt;">
-    </a>
-    <a href="https://www.youtube.com/" target="_blank">
-      <img src="Assets/youtube.png" alt="..." style="width: 50px; height: 40px; margin-left: 0%;">
-    </a>
-  </ul>
- </div>
- <div class="footerrr" style="margin-right: 30pt;">
-  <h5>Link Terkait</h5>
-  <ul>
-    <li>Beasiswa</li>
-    <li>Konferensi Internasional</li>
-    <li>Tracer Study</li>
-  </ul>
+</footer>
  </div>
   <!-- js -->
-  <script src="bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="bootstrap-5.3.0-alpha3-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

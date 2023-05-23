@@ -9,6 +9,14 @@
     <link rel="stylesheet" href="bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
 </head>
 
 <body>
@@ -34,41 +42,8 @@
     </nav>
 
     <!-- Header 2 -->
-    <nav class="navbar navbar-expand-sm  " style="background-color: #192F59; margin: 0;padding: 0;opacity: 85% ;">
-        <div class="container-fluid" style=" height: 60px;">
+    <nav id="header">
 
-            <div class="collapse navbar-collapse" id="navbarNavDropdown" style="justify-content: right;">
-                <ul class="navbar-nav" style="margin-right: 20px;">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html">Beranda</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" target="_blank _blank">Profil</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" target="_blank _blank">Akademik</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" target="_blank _blank">Sertifikasi</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" target="_blank _blank" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false" >
-                            Galeri
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="kontak.html" target="_blank _blank">Kontak</a>
-                    </li>
-
-                </ul>
-            </div>
-        </div>
     </nav>
     <!-- SlideShow -->
     <section class="banner">
@@ -281,7 +256,7 @@
     </footer>
         </div>
         <!-- js -->
-        <script src="bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
+        <script src="bootstrap-5.3.0-alpha3-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
