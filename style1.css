@@ -305,12 +305,11 @@
     .infoterkini{
         padding: 20px;
         width: 110%;
-        border: 5px solid rgba(59, 55, 55, 0.295);
+      
     }
     .berkeg{
         padding: 10px;
         width: 80%;
-        border: 2px solid rgba(59, 55, 55, 0.295);
     }
     .eventni{
         gap: 5px;
@@ -325,7 +324,7 @@
     }
     .judul{
         font-weight: 500;
-        font-size: medium;
+        font-size: 27px;
     }
 }
 .nav-item {
