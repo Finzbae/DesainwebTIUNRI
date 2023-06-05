@@ -161,6 +161,9 @@ ul{
   .horizontal-line{
     width: 100%;
   }
+  .banner{
+    height: 30vh;
+  }
 }
 /* Styling untuk layar dengan lebar kurang dari 600px */
 @media (max-width: 750px) {
